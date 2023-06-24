@@ -27,7 +27,7 @@ public class User {
 
     @OneToOne
     @JoinColumn
-    private Country country  ;
+    private Country originalCountry  ;
 
     public int getId() {
         return id;
@@ -93,11 +93,11 @@ public class User {
         this.connectionList = connectionList;
     }
 
-    public Country getCountry() {
-        return country;
+    public Country getOriginalCountry() {
+        return originalCountry;
     }
 
-    public void setCountry(Country country) {
-        this.country = country;
+    public void setOriginalCountry(Country originalCountry) {
+        this.originalCountry = originalCountry;
     }
 }
