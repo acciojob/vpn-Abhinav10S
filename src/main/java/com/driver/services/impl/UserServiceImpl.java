@@ -20,11 +20,11 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User register(String username, String password, String countryName) throws Exception{
-
+        return new  User () ;
     }
 
     @Override
     public User subscribe(Integer userId, Integer serviceProviderId) {
-
+        return new  User () ;
     }
 }
